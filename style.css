@@ -1,0 +1,424 @@
+h1 {
+	color: black;
+	font-family: 'Libre Baskerville', serif;
+	font-size: 4rem !important ;
+	text-align: center;
+	padding: 30px 20px 20px 20px;
+	letter-spacing: 5px;
+}
+
+body {
+	background-color: #E0CDA9 !important;
+}
+
+
+h2 {
+    font-family: 'Josefin Sans', sans-serif;
+    padding: 20px 50px 20px 80px;
+    color: black;
+	background-color: #f9f6f2;
+	text-align: center;
+	font-size: 30px;
+	letter-spacing: 5px;
+
+}
+
+
+
+#fashionred {
+	height: 120vh;
+	width: 90vh;
+	padding: 30px 20px 20px 20px;
+}
+
+#fashionblack {
+	height: 120vh;
+	width: 90vh;
+	padding: 30px 20px 20px 20px;
+}
+
+.texteconcept {
+	text-align: center;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 25px;
+
+}
+
+
+.cardtext {
+	color: white;
+}
+
+.icone {
+    float: right;
+    height: 20px;
+    width: 20px;
+    margin-top: 7px;
+    display: flex;
+    padding-bottom: 50px;
+}
+
+.card-deck {
+	text-align: center;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+nav ul li {
+	margin:0 30px; 
+}
+
+.description {
+	font-family: 'Josefin Sans', sans-serif;
+	color: black;
+	background-color: #DDD9D9;
+	text-align: center;
+	font-size: 30px;
+	text-align: center;
+	padding: 30px 20px 20px 20px;
+	letter-spacing: 5px;
+}
+
+
+.navbar-brand {
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 50px;
+}
+
+#navbarDropdown {
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 20px;
+	
+}
+
+.nav-link {
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 20px;
+}
+
+.dropdown-item {
+    display: block;
+    width: 100%;
+    padding: .25rem 1.5rem;
+    clear: both;
+    font-weight: 400;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #212529;
+    text-align: inherit;
+    white-space: nowrap;
+    background-color: transparent;
+    border: 0;
+}
+
+
+.footer ul {
+	display: flex;
+	justify-content: space-around;
+}
+
+.footer ul li {
+	list-style: none;
+	padding: 10px 20px 10px 20px;
+}
+
+.menubas ul {
+	display: flex;
+	justify-content: space-around;
+	font-family: 'Libre Baskerville', serif;
+}
+.menubas ul li {
+	list-style: none;
+}
+
+.form-control mr-sm-2 {
+	font-family: 'Libre Baskerville', serif;
+}
+
+.nav-item {
+	font-family: 'Libre Baskerville', serif;
+	font-size: 30px;
+}
+
+.display-4 {
+	font-family: 'Josefin Sans', sans-serif;
+	background-color: #f9f6f2;
+}
+
+.jumbotron {
+    padding: 2rem 1rem;
+    margin-bottom: 2rem;
+    background-color: #010408 ;
+    border-radius: .3rem;
+    background-color: #f9f6f2 !important;
+
+
+}
+
+
+.btn-primary {
+    color: white;
+    background-color: black !important;
+    border-color: grey !important ;
+}
+
+::-webkit-input-placeholder {
+   font-size: 13px;
+   font-family: 'Josefin Sans', sans-serif;
+}
+
+button {
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+.btn-outline-success {
+    color: black !important ;
+    border-color: black !important;
+    background-color: #D7D3D3;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+
+.topnav {
+  background-color: #f1d6ab;
+  overflow: hidden;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  border-bottom: 3px solid transparent;
+}
+
+.topnav a:hover {
+  border-bottom: 3px solid red;
+}
+
+.topnav a.active {
+  border-bottom: 3px solid red;
+}
+
+
+
+
+/* Add some content at the bottom of the video/page */
+.content {
+  position: fixed;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Style the button used to pause/play the video */
+#myBtn {
+  width: 200px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+  text-align: center;
+}
+
+#myBtn:hover {
+  background: #ddd;
+  color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+a
+{
+    text-decoration: none;
+}
+.product-card {
+    width: 370px;
+    position: relative;
+    box-shadow: 0 2px 7px #dfdfdf;
+    margin: 50px auto;
+    background: #fafafa;
+    display: inline-block;
+}
+
+.badge {
+    position: absolute;
+    left: 0;
+    top: 20px;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 700;
+    background: red;
+    color: #fff;
+    padding: 3px 10px;
+}
+
+.product-tumb {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    padding: 50px;
+    background: #f0f0f0;
+}
+
+.product-tumb img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.product-details {
+    padding: 30px;
+}
+
+.product-catagory {
+    display: block;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #ccc;
+    margin-bottom: 18px;
+}
+
+.product-details h4 a {
+    font-weight: 500;
+    display: block;
+    margin-bottom: 18px;
+    text-transform: uppercase;
+    color: #363636;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.product-details h4 a:hover {
+    color: #fbb72c;
+}
+
+.product-details p {
+    font-size: 15px;
+    line-height: 22px;
+    margin-bottom: 18px;
+    color: #999;
+}
+
+.product-bottom-details {
+    overflow: hidden;
+    border-top: 1px solid #eee;
+    padding-top: 20px;
+}
+
+.product-bottom-details div {
+    float: left;
+    width: 50%;
+}
+
+.product-price {
+    font-size: 18px;
+    color: #a34a28;
+    font-weight: 600;
+}
+
+.product-price small {
+    font-size: 80%;
+    font-weight: 400;
+    text-decoration: line-through;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.product-links {
+    text-align: right;
+}
+
+.product-links a {
+    display: inline-block;
+    margin-left: 5px;
+    color: #e1e1e1;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+.product-links a:hover {
+    color: #fbb72c;
+}
+
+
+
+
+.* {
+  box-sizing: border-box;
+}
+
+/* Float four columns side by side */
+.column {
+  float: left;
+  width: 25%;
+  padding: 0.5px;
+}
+
+.row { 
+	margin: 0 -5px; 
+}
+
+/* Clear floats after the columns */
+.row: after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 10px;
+  } 
+
+
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: #444;
+  color: white;
+}
+
+.fa {
+	font-size:50px;
+}
+
+
+
+
+
+
+
+
+
+
+
